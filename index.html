@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756375593826"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756375593826">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img class="header__image-logo" src="./assets/img/logo.svg" alt="Logo">
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Pages</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Menu</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Order</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Contact</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Shop</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div class="header__actions">
+						<a href="#" class="header__btn button" data-fls-button="">RESERVATION</a>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<!-- HERO -->
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__content">
+							<div class="hero__label">HELLO, New FRIEND</div>
+							<h1 class="hero__title">RESERVE YOUR TABLE</h1>
+							<div class="hero__actions">
+								<a href="" class="hero__btn button button--transparent">BOOK A TABLE</a>
+								<a href="" class="hero__btn">OPEN MENU</a>
+							</div>
+						</div>
+					</div>
+					<div class="hero__bgimage">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/hero/hero-bgimage-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/hero/hero-bgimage-1200.webp" type="image/webp">
+							<img alt="Image" src="./assets/img/hero/hero-bgimage.webp">
+						</picture>
+					</div>
+				</section>
+				<!-- INFORMATION -->
+				<section class="info">
+					<div class="info__container">
+						<div class="info__row">
+							<div class="info__content block-module" data-fls-blockmodule="">
+								<div class="block-module__label">About us</div>
+								<h2 class="block-module__title">We Invite You to Visit Our Coffee House</h2>
+								<div class="block-module__text">
+									<p>
+										Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+									</p>
+								</div>
+								<a href="#" data-fls-button="" class="block-module__btn button">READ MORE</a>
+							</div>
+							<div class="info__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/info/01-600.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/info/01.webp">
+								</picture>
+							</div>
+						</div>
+						<div class="info__row">
+							<div class="info__content block-module" data-fls-blockmodule="">
+								<div class="block-module__label">COFFEE MENU</div>
+								<h2 class="block-module__title">Quality Kava Beans</h2>
+								<div class="block-module__text">
+									<p>
+										Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+									</p>
+								</div>
+								<a href="#" data-fls-button="" class="block-module__btn button">READ MORE</a>
+							</div>
+							<div class="info__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/info/02-600.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/info/02.webp">
+								</picture>
+							</div>
+						</div>
+						<div class="info__row">
+							<div class="info__content block-module" data-fls-blockmodule="">
+								<div class="block-module__label">OUR TEAM</div>
+								<h2 class="block-module__title">Use the Tips & Recipes of
+						Our Barista</h2>
+								<div class="block-module__text">
+									<p>
+										Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+									</p>
+								</div>
+								<a href="#" data-fls-button="" class="block-module__btn button">READ MORE</a>
+							</div>
+							<div class="info__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/info/03-600.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/info/03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- FEATURES -->
+				<section class="features">
+					<div class="features__container">
+						<div class="features__blockmodule block-module block-module--center" data-fls-blockmodule="">
+							<div class="block-module__label">FEATURES</div>
+							<h2 class="block-module__title">Why people choose us?</h2>
+							<div class="block-module__text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+								</p>
+							</div>
+							<a href="#" data-fls-button="" class="block-module__btn button button--transparent">READ MORE</a>
+						</div>
+						<div class="features__items">
+							<div class="features__item item-feature">
+								<div class="item-feature__icon">
+									<img src="./assets/img/features/01.svg" alt="Image">
+								</div>
+								<div class="item-feature__content">
+									<h4 class="item-feature__title">MENU FOR EVERY TASTE</h4>
+									<div class="item-feature__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur. Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="features__item item-feature">
+								<div class="item-feature__icon">
+									<img src="./assets/img/features/02.svg" alt="Image">
+								</div>
+								<div class="item-feature__content">
+									<h4 class="item-feature__title">ALWAYS QUALITY BEANS</h4>
+									<div class="item-feature__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur. Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="features__item item-feature">
+								<div class="item-feature__icon">
+									<img src="./assets/img/features/03.svg" alt="Image">
+								</div>
+								<div class="item-feature__content">
+									<h4 class="item-feature__title">EXPERIENCED BARISTA</h4>
+									<div class="item-feature__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur. Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- RESERVATION -->
+				<section class="reservation">
+					<div class="reservation__container">
+						<div class="reservation__blockmodule block-module" data-fls-blockmodule="">
+							<div class="block-module__label">RESERVATION</div>
+							<h2 class="block-module__title">Working Hours</h2>
+							<div class="block-module__actions">
+								<a href="#" data-fls-button="" class="block-module__btn button">READ MORE</a>
+								<a href="#" class="block-module__btn">Contact Us</a>
+							</div>
+						</div>
+						<div class="reservation__schedule schedule-reservation">
+							<div class="schedule-reservation__block">
+								<div class="schedule-reservation__days">Sunday to Tuesday</div>
+								<div class="schedule-reservation__hours">09:00 AM - 10.00 PM</div>
+							</div>
+							<div class="schedule-reservation__block">
+								<div class="schedule-reservation__days">Friday to Saturday</div>
+								<div class="schedule-reservation__hours">09:00 AM - 10.00 PM</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- REVIEWS -->
+				<section class="reviews">
+					<div class="reviews__container">
+						<div class="reviews__blockmodule block-module block-module--center" data-fls-blockmodule="">
+							<div class="block-module__label">FEATURES</div>
+							<h2 class="block-module__title">Why people choose us?</h2>
+							<div class="block-module__text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+								</p>
+							</div>
+						</div>
+						<div class="reviews__content">
+							<div data-fls-slider="" class="reviews__slider swiper">
+								<div class="reviews__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__icon slide-review--icon-quotes"></div>
+										<div class="slide-review__text">
+											<p>
+												“Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit. Dignissim nunc facilisi pretium id molestie lectus duis.”
+											</p>
+										</div>
+										<div data-fls-rating="set" data-fls-rating-value="4" class="slide-review__rating"></div>
+										<div class="slide-review__author">
+											<div class="slide-review__name">John</div>
+											<div class="slide-review__info">Business Man</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="reviews__statistic stat-review">
+							<div class="stat-review__item">
+								<div class="stat-review__label">
+									1287
+									<span>+</span>
+								</div>
+								<div class="stat-review__text">VISITORS DAILY</div>
+							</div>
+							<div class="stat-review__item">
+								<div class="stat-review__label">
+									578
+									<span>+</span>
+								</div>
+								<div class="stat-review__text">DELIVERIES MONTHLY</div>
+							</div>
+							<div class="stat-review__item">
+								<div class="stat-review__label">
+									1440
+									<span>+</span>
+								</div>
+								<div class="stat-review__text">POSITIVE FEEDBACK</div>
+							</div>
+							<div class="stat-review__item">
+								<div class="stat-review__label">
+									40
+									<span>+</span>
+								</div>
+								<div class="stat-review__text">AWARDS AND HONORS</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- ORDER -->
+				<section class="order">
+					<div class="order__container">
+						<div class="order__content">
+							<h3 class="order__title">Simple Way To
+					Order Your Foods</h3>
+							<div class="order__buttons">
+								<a href="#" class="order__button">
+									<picture>
+										<img alt="Image" src="./assets/img/order/google-play.webp">
+									</picture>
+								</a>
+								<a href="#" class="order__button">
+									<picture>
+										<img alt="Image" src="./assets/img/order/app-store.webp">
+									</picture>
+								</a>
+							</div>
+						</div>
+						<div class="order__images">
+							<div class="order__image order__image--left">
+								<picture>
+									<img alt="Image" src="./assets/img/order/01.webp">
+								</picture>
+							</div>
+							<div class="order__image order__image--right">
+								<picture>
+									<img alt="Image" src="./assets/img/order/02.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- MENU -->
+				<section class="list-menu">
+					<div class="list-menu__container">
+						<div class="list-menu__blockmodule block-module block-module--center" data-fls-blockmodule="">
+							<div class="block-module__label">MENU</div>
+							<h2 class="block-module__title">Explore Our Foods</h2>
+							<div class="block-module__text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+								</p>
+							</div>
+						</div>
+						<div class="list-menu__items">
+							<div class="list-menu__item item-menu">
+								<div class="item-menu__img">
+									<a href="#" class="item-menu__img-link">
+										<picture>
+											<img alt="Image" src="./assets/img/list-menu/01.webp">
+										</picture>
+									</a>
+								</div>
+								<h3 class="item-menu__title">
+									<a href="#" class="item-menu__title-link">Raspberry French Toast</a>
+								</h3>
+								<div class="item-menu__info">
+									<div class="item-menu__time">Time: 10 - 15 Minutes</div>
+									<span>|</span>
+									<div class="item-menu__serves">Serves: 1</div>
+								</div>
+								<div class="item-menu__price">
+									<span class="item-menu__price-new">$12.50</span>
+									<span class="item-menu__price-old">$13.20</span>
+								</div>
+								<a href="#" class="item-menu__btn button" data-fls-button="">Order Now</a>
+							</div>
+							<div class="list-menu__item item-menu">
+								<div class="item-menu__img">
+									<a href="#" class="item-menu__img-link">
+										<picture>
+											<img alt="Image" src="./assets/img/list-menu/02.webp">
+										</picture>
+									</a>
+								</div>
+								<h3 class="item-menu__title">
+									<a href="#" class="item-menu__title-link">Raspberry French Toast</a>
+								</h3>
+								<div class="item-menu__info">
+									<div class="item-menu__time">Time: 10 - 15 Minutes</div>
+									<span>|</span>
+									<div class="item-menu__serves">Serves: 1</div>
+								</div>
+								<div class="item-menu__price">
+									<span class="item-menu__price-new">$12.50</span>
+									<span class="item-menu__price-old">$13.20</span>
+								</div>
+								<a href="#" class="item-menu__btn button" data-fls-button="">Order Now</a>
+							</div>
+							<div class="list-menu__item item-menu">
+								<div class="item-menu__img">
+									<a href="#" class="item-menu__img-link">
+										<picture>
+											<img alt="Image" src="./assets/img/list-menu/03.webp">
+										</picture>
+									</a>
+								</div>
+								<h3 class="item-menu__title">
+									<a href="#" class="item-menu__title-link">Raspberry French Toast</a>
+								</h3>
+								<div class="item-menu__info">
+									<div class="item-menu__time">Time: 10 - 15 Minutes</div>
+									<span>|</span>
+									<div class="item-menu__serves">Serves: 1</div>
+								</div>
+								<div class="item-menu__price">
+									<span class="item-menu__price-new">$12.50</span>
+									<span class="item-menu__price-old">$13.20</span>
+								</div>
+								<a href="#" class="item-menu__btn button" data-fls-button="">Order Now</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- SUBSCRIBE -->
+				<section class="subscribe">
+					<div class="subscribe__container">
+						<div class="subscribe__blockmodule block-module" data-fls-blockmodule="">
+							<div class="block-module__label">NEWS LETTER</div>
+							<h2 class="block-module__title">Subscribe Our Newsletter</h2>
+							<div class="block-module__text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at ac eu donec ut.
+								</p>
+							</div>
+						</div>
+						<form action="" class="subscribe__form">
+							<input data-fls-input="" autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="Type here" class="subscribe__input input">
+							<button class="subscribe__btn button" data-fls-button="">Subscribe</button>
+						</form>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__top">
+						<div class="footer__info">
+							<a href="#" class="footer__logo">
+								<img src="./assets/img/logo.svg" alt="Loge">
+							</a>
+							<div class="footer__text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Tristique cursus morbi nibh nec et vulputate. Turpis tortor nisi imperdiet quis accumsan. Ligula netus amet leo ultricies. Neque venenatis magnis amet eget sagittis leo enim.
+								</p>
+							</div>
+							<div class="footer__social social-footer">
+								<div class="social-footer__item social--icon-s-facebook"></div>
+								<div class="social-footer__item social--icon-s-twitter"></div>
+								<div class="social-footer__item social--icon-s-instagram"></div>
+								<div class="social-footer__item social--icon-s-linkedin"></div>
+							</div>
+						</div>
+						<div class="footer__items">
+							<div class="footer__item item-footer">
+								<div class="item-footer__title">Opening Restaurent</div>
+								<ul class="item-footer__list">
+									<li class="item-footer__element">Sa - We: 09 :00am - 10:00pm</li>
+									<li class="item-footer__element">Thu - We: 09 :00am - 10:00pm</li>
+									<li class="item-footer__element">Friday Closed</li>
+								</ul>
+							</div>
+							<div class="footer__item item-footer">
+								<div class="item-footer__title">User Link</div>
+								<ul class="item-footer__list">
+									<li class="item-footer__element">
+										<a href="#" class="item-footer__link">About Us</a>
+									</li>
+									<li class="item-footer__element">
+										<a href="#" class="item-footer__link">Contact Us</a>
+									</li>
+									<li class="item-footer__element">
+										<a href="#" class="item-footer__link">Order Delivery</a>
+									</li>
+									<li class="item-footer__element">
+										<a href="#" class="item-footer__link">Payment & Tax</a>
+									</li>
+									<li class="item-footer__element">
+										<a href="#" class="item-footer__link">Terms of Services</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__item item-footer">
+								<div class="item-footer__title">Contact Us</div>
+								<ul class="item-footer__list item-footer__list--contacts">
+									<li class="item-footer__element">
+										<a href="" class="item-footer__link">543 Country Club Ave,
+								NC 27587, London, UK</a>
+									</li>
+									<li class="item-footer__element">
+										<a href="tel:+12576541120" class="item-footer__link">+1257 6541120</a>
+									</li>
+								</ul>
+								<form action="#" class="item-footer__form">
+									<input data-fls-input="" autocomplete="off" type="email" name="form[]" data-error="Помилка" placeholder="Email" class="item-footer__input input">
+									<button class="item-footer__btn button" data-fls-button="">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copy">©2024 ARR, All right reserved</div>
+						<ul class="footer__list">
+							<li class="footer__element">
+								<a href="" class="footer__link">Privacy Policy</a>
+							</li>
+							<li class="footer__element">
+								<a href="" class="footer__link">Terms of Use</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
